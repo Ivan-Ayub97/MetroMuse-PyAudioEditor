@@ -88,7 +88,7 @@ Please fork the repository, create a feature branch, and submit a pull request.
 - Efficient audio rendering
 
 ## 🔧 Development Status (Version 0.10.0)
-
+```
 | Component        | Status        | Notes                                             |
 | ---------------- | ------------- | ------------------------------------------------- |
 | Waveform Display | 🟡 Functional | Enhanced with scrubbing, time grid, and markers   |
@@ -117,7 +117,7 @@ MetroMuse/
 │
 ├── requirements.txt # Python dependencies
 └── README.md # Documentation
-
+```
 ## 📦 Dependencies
 
 - PyQt5 - GUI framework
