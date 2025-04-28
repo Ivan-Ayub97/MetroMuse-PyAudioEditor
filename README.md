@@ -88,7 +88,7 @@ Please fork the repository, create a feature branch, and submit a pull request.
 - Efficient audio rendering
 
 ## 🔧 Development Status (Version 0.10.0)
-```
+
 | Component        | Status        | Notes                                             |
 | ---------------- | ------------- | ------------------------------------------------- |
 | Waveform Display | 🟡 Functional | Enhanced with scrubbing, time grid, and markers   |
@@ -99,7 +99,7 @@ Please fork the repository, create a feature branch, and submit a pull request.
 | UI/UX            | 🟡 Functional | Modern dark theme with enhanced controls          |
 
 ## 📁 Project Structure
-
+```
 MetroMuse/
 │
 ├── src/
