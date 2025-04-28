@@ -1,5 +1,5 @@
 # ![MetroMuse](Banner.png)
-## MetroMuse — Cross-Platform Audio Editor
+## MetroMuse — Audio Editor
 **Version 0.10.0 (INCOMPLETE BETA)**
 
 > ⚠️ **Disclaimer:** MetroMuse is currently in beta. Some features may be incomplete, unstable, or under development.
@@ -12,6 +12,16 @@ A **modern, cross-platform audio editor** with multitrack capabilities, enhanced
 
 ![Capture](Capture.png)
 
+---
+## 🤝 Contributing
+
+MetroMuse is open source and welcomes contributors! You can help by:
+
+- Reporting issues
+- Improving existing features
+- Refactoring code
+- Designing UI components
+- Translating to other languages
 ---
 
 ## ✨ Features
