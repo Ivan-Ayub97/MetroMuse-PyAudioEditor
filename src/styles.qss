@@ -1,0 +1,326 @@
+/* MetroMuse - Modern Dark Theme Stylesheet */
+
+/* Global Variables */
+* {
+    /* Main Colors */
+    color-dark-bg: #232629;
+    color-darker-bg: #1a1d23;
+    color-light-fg: #eef1f4;
+    color-accent: #47cbff;
+    color-secondary-accent: #ff6b6b;
+    color-success: #5ad95a;
+    color-warning: #ffc14d;
+    
+    /* Secondary Colors */
+    color-panel-bg: #21242b;
+    color-border: #31343a;
+    color-button-bg: #2a2e36;
+    color-button-hover: #383c45;
+    color-selected: #3a6d99;
+}
+
+/* Main Application Window */
+QMainWindow {
+    background-color: #232629;
+    color: #eef1f4;
+}
+
+QWidget {
+    background-color: #232629;
+    color: #eef1f4;
+    font-size: 10pt;
+}
+
+/* Buttons and Controls */
+QPushButton, QToolButton {
+    background-color: #2a2e36;
+    color: #eef1f4;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    min-width: 48px;
+    min-height: 48px;
+    font-weight: bold;
+}
+
+QPushButton:hover, QToolButton:hover {
+    background-color: #383c45;
+}
+
+QPushButton:pressed, QToolButton:pressed {
+    background-color: #47cbff;
+    color: #000000;
+}
+
+QPushButton:checked, QToolButton:checked {
+    background-color: #47cbff;
+    color: #000000;
+}
+
+QPushButton:disabled, QToolButton:disabled {
+    background-color: #1e2128;
+    color: #6c7079;
+}
+
+/* Menu Bar and Menus */
+QMenuBar {
+    background-color: #1a1d23;
+    color: #eef1f4;
+    border-bottom: 1px solid #31343a;
+    min-height: 32px;
+    padding: 2px;
+}
+
+QMenuBar::item {
+    background-color: transparent;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+QMenuBar::item:selected {
+    background-color: #383c45;
+}
+
+QMenu {
+    background-color: #21242b;
+    color: #eef1f4;
+    border: 1px solid #31343a;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+QMenu::item {
+    padding: 6px 24px 6px 12px;
+    border-radius: 4px;
+}
+
+QMenu::item:selected {
+    background-color: #383c45;
+}
+
+QMenu::separator {
+    height: 1px;
+    background-color: #31343a;
+    margin: 4px 8px;
+}
+
+/* Sliders and Progress Bars */
+QSlider::groove:horizontal {
+    background-color: #1e2128;
+    height: 8px;
+    border-radius: 4px;
+}
+
+QSlider::handle:horizontal {
+    background-color: #47cbff;
+    width: 18px;
+    height: 18px;
+    margin: -5px 0;
+    border-radius: 9px;
+}
+
+QSlider::handle:horizontal:hover {
+    background-color: #6bd7ff;
+}
+
+QProgressBar {
+    background-color: #1e2128;
+    border-radius: 4px;
+    text-align: center;
+    color: #eef1f4;
+    min-height: 10px;
+}
+
+QProgressBar::chunk {
+    background-color: #47cbff;
+    border-radius: 4px;
+}
+
+/* Frames, Panels, and Groupboxes */
+QFrame, QGroupBox {
+    background-color: #21242b;
+    border-radius: 8px;
+    border: 1px solid #31343a;
+}
+
+QGroupBox {
+    margin-top: 24px;
+    padding-top: 24px;
+    font-weight: bold;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 5px 10px;
+    background-color: #21242b;
+    border: 1px solid #31343a;
+    border-radius: 4px;
+}
+
+/* Text Inputs and Line Edits */
+QLineEdit, QTextEdit {
+    background-color: #1a1d23;
+    color: #eef1f4;
+    border: 1px solid #31343a;
+    border-radius: 6px;
+    padding: 8px;
+    selection-background-color: #3a6d99;
+}
+
+/* List Widgets and Tree Views */
+QListWidget, QTreeView {
+    background-color: #1a1d23;
+    color: #eef1f4;
+    border: 1px solid #31343a;
+    border-radius: 6px;
+    alternate-background-color: #21242b;
+}
+
+QListWidget::item, QTreeView::item {
+    padding: 4px;
+    border-radius: 4px;
+}
+
+QListWidget::item:selected, QTreeView::item:selected {
+    background-color: #3a6d99;
+    color: #ffffff;
+}
+
+QListWidget::item:hover, QTreeView::item:hover {
+    background-color: #2a3542;
+}
+
+/* Scroll Bars */
+QScrollBar {
+    background-color: #21242b;
+    width: 16px;
+    height: 16px;
+    margin: 0px;
+}
+
+QScrollBar::handle {
+    background-color: #3a3f4b;
+    border-radius: 5px;
+    min-height: 30px;
+    min-width: 30px;
+}
+
+QScrollBar::handle:hover {
+    background-color: #474d5d;
+}
+
+QScrollBar::add-line, QScrollBar::sub-line {
+    height: 0px;
+    width: 0px;
+}
+
+QScrollBar::add-page, QScrollBar::sub-page {
+    background: none;
+}
+
+/* Tab Widgets */
+QTabWidget::pane {
+    border: 1px solid #31343a;
+    border-radius: 6px;
+    background-color: #21242b;
+}
+
+QTabBar::tab {
+    background-color: #1e2128;
+    color: #eef1f4;
+    border: 1px solid #31343a;
+    border-bottom: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 8px 16px;
+    min-width: 80px;
+    margin-right: 2px;
+}
+
+QTabBar::tab:selected {
+    background-color: #21242b;
+    border-bottom: 2px solid #47cbff;
+}
+
+QTabBar::tab:hover:!selected {
+    background-color: #2a2e36;
+}
+
+/* Status Bar */
+QStatusBar {
+    background-color: #1a1d23;
+    color: #eef1f4;
+    border-top: 1px solid #31343a;
+    min-height: 28px;
+}
+
+QStatusBar::item {
+    border: none;
+}
+
+/* Tool Tips */
+QToolTip {
+    background-color: #21242b;
+    color: #eef1f4;
+    border: 1px solid #47cbff;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+/* Specialized Widgets for MetroMuse */
+/* Waveform Canvas Background */
+WaveformCanvas {
+    background-color: #1a1d23;
+    border-radius: 8px;
+    border: 1px solid #31343a;
+}
+
+/* Track Headers */
+#TrackHeader {
+    background-color: #21242b;
+    border: 1px solid #31343a;
+    border-radius: 6px;
+    min-height: 48px;
+}
+
+/* Volume Sliders */
+#VolumeSlider::groove:horizontal {
+    height: 4px;
+    background-color: #1e2128;
+}
+
+#VolumeSlider::handle:horizontal {
+    background-color: #47cbff;
+    width: 16px;
+    height: 16px;
+    margin: -6px 0;
+    border-radius: 8px;
+}
+
+/* Playback Controls Group */
+#PlaybackControls {
+    background-color: #1a1d23;
+    border-top: 1px solid #31343a;
+    padding: 8px;
+}
+
+#PlaybackControls QToolButton {
+    margin: 4px;
+}
+
+/* Time Display */
+#TimeDisplay {
+    font-family: monospace;
+    font-size: 16px;
+    background-color: #1a1d23;
+    padding: 4px 8px;
+    border-radius: 4px;
+    min-width: 120px;
+}
+
+/* MultiTrack Container */
+#MultiTrackContainer {
+    background-color: #1a1d23;
+}
+

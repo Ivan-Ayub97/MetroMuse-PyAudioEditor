@@ -1,0 +1,14 @@
+PyQt5
+numpy
+matplotlib
+pydub
+librosa
+# ffmpeg (required for mp3, acc, flac support in pydub - install from https://ffmpeg.org/download.html)
+<<<<<<< HEAD
+PyQt5-stubs
+PyQt5-Qt5
+qtsvg
+sounddevice
+python-qss
+=======
+>>>>>>> 949dc71d3748738c23afdaeb21d0e4377d2c3bf3
