@@ -136,7 +136,7 @@ MetroMuse/
 1. Clone the repository:
 
 bash
-git clone <https://github.com/yourusername/MetroMuse.git>
+git clone <https://github.com/Ivan-Ayub97/MetroMuse-AudioEditor.git>
 cd MetroMuse
 
 2. Install required Python packages:
