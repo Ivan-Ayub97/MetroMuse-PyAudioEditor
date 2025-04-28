@@ -1,218 +1,222 @@
-![MetroMuse](Banner.png)
+# ![MetroMuse](Banner.png)
+## MetroMuse — Cross-Platform Audio Editor
 **Version 0.10.0 (INCOMPLETE BETA)**
 
-> ⚠️ **NOTE:** MetroMuse is currently in beta. Some features may be incomplete or unstable.
+> ⚠️ **Disclaimer:** MetroMuse is currently in beta. Some features may be incomplete, unstable, or under development.
 
-A modern, cross-platform audio editor with multitrack support, enhanced waveform visualization, and a sleek interface.
-
-## ![Capture](Capture.png)
-
-## 🤝 Contributing
-
-MetroMuse is open source and welcomes contributors! You can help by:
-
-- Reporting issues
-- Improving existing features
-- Refactoring code
-- Designing UI components
-- Translating to other languages
-
-Please fork the repository, create a feature branch, and submit a pull request.
+A **modern, cross-platform audio editor** with multitrack capabilities, enhanced waveform visualization, and an intuitive, sleek interface.
 
 ---
 
-## Current Features
+## 📸 Preview
+
+![Capture](Capture.png)
+
+---
+
+## ✨ Features
 
 ### 🎚️ Multitrack Support
+- Manage multiple audio tracks effortlessly
+- Solo, mute, and volume control per track
+- Individual color coding and track organization
+- Synchronized playback across all tracks
+- Easy track naming and management
 
-- Multiple audio track management
-- Track-specific controls (solo, mute, volume)
-- Individual track color coding
-- Synchronized playback across tracks
-- Track naming and organization
+### 📊 Enhanced Waveform Visualization
+- Interactive, zoomable waveform display
+- Adaptive time grids and markers
+- Real-time amplitude monitoring
+- Smooth zoom, scroll, and scrubbing functionality
 
-### 📊 Enhanced Waveform Display
-
-- Interactive waveform visualization
-- Adaptive time grid and markers
-- Real-time amplitude display
-- Zoom and scroll functionality
-- Advanced scrubbing support
-
-### ✂️ Audio Editing
-
-- Cut, copy, paste operations
-- Selection-based editing
-- Multiple undo/redo support
-- Track-specific editing
-- Non-destructive editing
+### ✂️ Audio Editing Tools
+- Cut, copy, paste with precision
+- Selection-based and track-specific editing
+- Multiple undo/redo levels
+- Non-destructive editing workflow
 
 ### 🎛️ Audio Effects
-
-- Gain adjustment (volume)
-- Fade in/out effects
-- Per-track volume control
+- Volume gain adjustment
+- Fade-in and fade-out effects
 - Real-time effect preview
-- Effect parameter adjustment
+- Per-track parameter control
 
 ### ▶️ Advanced Playback
-
-- Multi-track synchronized playback
-- Track soloing and muting
-- Real-time mixing
-- Position scrubbing
-- Playback position tracking
+- Synchronized multi-track playback
+- Real-time scrubbing and position tracking
+- Solo/mute functionality for detailed mixing
 
 ### 🎨 Modern Interface
-
-- Dark theme with accent colors
-- Large, accessible controls (48x48px)
-- Intuitive track management
-- Collapsible panels
+- Dark theme with accent color highlights
+- Large, accessible UI elements (48x48px)
+- Collapsible panels and intuitive navigation
 - Enhanced visual feedback
 
-### 💾 File Support
-
-- Import/Export: WAV, FLAC, MP3, AAC
-- Drag and drop support
+### 💾 File Format Support
+- Import and export: WAV, FLAC, MP3, AAC
+- Drag-and-drop audio importing
 - Recent files management
-- File information display
-- Multiple audio format handling
+- Display of file metadata and information
 
-### 🔧 Technical Features
-
+### 🔧 Under-the-Hood Technical Features
 - Sample-accurate editing
-- Multi-channel audio support
-- High-quality audio processing
+- High-quality multi-channel audio processing
 - Real-time waveform updates
-- Efficient audio rendering
+- Efficient rendering pipeline
 
-## 🔧 Development Status (Version 0.10.0)
+---
+
+## 🛠️ Development Status (v0.10.0)
 
 | Component        | Status        | Notes                                             |
 | ---------------- | ------------- | ------------------------------------------------- |
-| Waveform Display | 🟡 Functional | Enhanced with scrubbing, time grid, and markers   |
-| Multitrack       | 🟡 Functional | Full support with track controls and mixing       |
-| Editing Tools    | 🟡 Functional | Cut, copy, paste, fade, gain with undo/redo       |
-| Exporting        | 🟡 Functional | Supports WAV, FLAC, MP3, AAC formats              |
-| Playback         | 🟡 Functional | Synchronized multitrack playback with visual sync |
-| UI/UX            | 🟡 Functional | Modern dark theme with enhanced controls          |
+| Waveform Display | 🟡 Functional | Includes scrubbing, time grid, and markers         |
+| Multitrack       | 🟡 Functional | Fully functional with controls and organization   |
+| Editing Tools    | 🟡 Functional | Basic editing tools with undo/redo support         |
+| Exporting        | 🟡 Functional | WAV, FLAC, MP3, AAC export supported               |
+| Playback         | 🟡 Functional | Synchronized, real-time multitrack playback        |
+| UI/UX            | 🟡 Functional | Dark-themed, responsive interface                  |
 
-## 📁 Project Structure
+---
+
+## 🗂️ Project Structure
+
 ```
 MetroMuse/
 │
 ├── src/
-│ ├── metro_muse.py # Main application
-│ ├── track_manager.py # Multitrack management
-│ ├── track_renderer.py # Waveform visualization
-│ ├── styles.qss # UI styling
-│ ├── icon.png # Application icon
-│ └── icon.ico # Windows icon
+│   ├── metro_muse.py        # Main application
+│   ├── track_manager.py     # Multitrack management
+│   ├── track_renderer.py    # Waveform rendering
+│   ├── styles.qss           # UI styling (QSS format)
+│   ├── icon.png             # App icon (PNG)
+│   └── icon.ico             # App icon (ICO for Windows)
 │
 ├── resources/
-│ ├── ffmpeg.exe # Audio processing
-│ ├── ffprobe.exe # Media analysis
-│ └── ffplay.exe # Audio playback
+│   ├── ffmpeg.exe           # Audio processing binary
+│   ├── ffprobe.exe          # Media analysis binary
+│   └── ffplay.exe           # Audio playback binary
 │
-├── requirements.txt # Python dependencies
-└── README.md # Documentation
+├── requirements.txt         # Python dependencies list
+└── README.md                 # Project documentation
 ```
+
+---
+
 ## 📦 Dependencies
 
-- PyQt5 - GUI framework
-- numpy - Audio processing
-- matplotlib - Waveform visualization
-- pydub - Audio file handling
-- librosa - Audio analysis
-- sounddevice - Audio playback
-- qtsvg - SVG icon support
-- python-qss - Stylesheet support
-- PyQt5-stubs - Type hints
-- ffmpeg (required for mp3, aac, flac support)
+- **PyQt5** – GUI framework
+- **numpy** – Audio processing
+- **matplotlib** – Waveform visualization
+- **pydub** – Audio file handling
+- **librosa** – Audio analysis
+- **sounddevice** – Audio playback
+- **qtsvg** – SVG icon support
+- **python-qss** – Stylesheet management
+- **PyQt5-stubs** – Type hinting for PyQt5
+- **ffmpeg** (external) – Media processing (MP3, AAC, FLAC support)
+
+---
 
 ## 🚀 Installation
 
 1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/MetroMuse.git
+   cd MetroMuse
+   ```
 
-bash
-git clone <https://github.com/Ivan-Ayub97/MetroMuse-AudioEditor.git>
-cd MetroMuse
+2. Install Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-2. Install required Python packages:
+3. Install **ffmpeg**:
+   - **Windows**:
+     ```bash
+     winget install ffmpeg
+     ```
+     Or manually place `ffmpeg.exe`, `ffprobe.exe`, and `ffplay.exe` inside the `resources/` folder.
+   - **macOS**:
+     ```bash
+     brew install ffmpeg
+     ```
+   - **Linux**:
+     ```bash
+     sudo apt install ffmpeg
+     ```
 
-bash
-pip install -r requirements.txt
+---
 
-3. Install ffmpeg:
+## 🎮 Usage Guide
 
-- Windows: winget install ffmpeg (or you can directly place the ffmpeg.exe, ffplay.exe and ffprobe.exe bin in the resources/ folder)
-- macOS: brew install ffmpeg
-- Linux: sudo apt install ffmpeg
+Run MetroMuse:
 
-## 🎮 Usage
-
-Run the application:
-
-bash
+```bash
 python src/metro_muse.py
+```
 
-### Track Management
+### Key Operations
 
-- Add Track: Click "+ Add Track"
-- Import Audio: Click "Import Audio" or drag-and-drop
-- Delete Track: Click "✕" on track header
-- Track Settings: Use track header controls
+| Action            | Shortcut/Action                 |
+| ----------------- | ------------------------------- |
+| Add Track         | "+ Add Track" button             |
+| Import Audio      | "Import Audio" button / Drag-and-drop |
+| Delete Track      | Click "✕" on track header        |
+| Play/Pause        | Spacebar                        |
+| Stop Playback     | Esc                             |
+| Rewind            | Home key                        |
+| Fast Forward      | End key                         |
+| Scrub             | Click and drag on waveform       |
+| Zoom In/Out       | Mouse Wheel / Ctrl + Mouse Wheel |
+| Pan View          | Arrow keys                      |
 
-### Playback
+---
 
-- Play/Pause: Space
-- Stop: Esc
-- Rewind: Home
-- Fast Forward: End
-- Scrub: Click and drag waveform
-
-### Navigation
-
-- Zoom In: Mouse wheel up
-- Zoom Out: Mouse wheel down
-- Pan: Arrow keys
-- Quick Zoom: Ctrl + Mouse wheel
-
-## 🔜 Planned Features
+## 🔥 Planned Features
 
 - Spectrum analysis view
-- Additional audio effects (echo, reverb, eq)
+- Additional effects: echo, reverb, equalization
 - VST plugin support
-- Project saving/loading
-- Track automation
-- Enhanced error handling
-- User guide dialogs
+- Project saving and loading
+- Track automation features
+- Improved error handling
+- In-app user guides and onboarding dialogs
+
+---
 
 ## ⚠️ Known Issues
 
-- Export may fail without ffmpeg configured correctly
-- Some audio effects still in development (echo, reverb)
-- VST plugin support not yet implemented
-- Project saving/loading not yet implemented
+- Exporting may fail if **ffmpeg** is not correctly configured
+- Some audio effects (echo, reverb) are under active development
+- VST plugin support is pending implementation
+- Project saving/loading is not yet functional
+
+---
 
 ## 💻 System Requirements
 
 - **Python**: 3.7 or higher
-- **Dependencies**:
-  - All dependencies listed in the Dependencies section above
-  - ffmpeg (must be in PATH or in resources/)
+- **External Tools**: ffmpeg (must be installed or included in `resources/`)
+- **All listed dependencies** (see [Dependencies](#-dependencies))
+
+---
 
 ## 📄 License
 
 This project is licensed under the **[MIT License](LICENSE)**.
 
-## 👤 Author
+---
+
+## 👨‍💻 Author
 
 - **Developer**: [Iván Eduardo Chavez Ayub](https://github.com/Ivan-Ayub97)
 - **Contact**: <negroayub97@gmail.com>
 - **Technologies**: Python 3, PyQt5, pydub, librosa
 
+---
+
 ## 🌟 Why MetroMuse?
 
-Because sometimes all you need is a clean, focused editor that works. MetroMuse aims to simplify audio editing with a modern interface and a clear feature set—open, hackable, and evolving with your feedback.
+Because **sometimes you just need a simple, powerful editor that works**.
+MetroMuse is built to provide a **clean, accessible** environment for audio editing—**open-source, evolving**, and designed with a focus on **what matters most to creators**.
