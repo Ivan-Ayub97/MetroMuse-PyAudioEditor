@@ -146,7 +146,7 @@ MetroMuse/
      ```bash
      winget install ffmpeg
      ```
-     Or manually place `ffmpeg.exe`, `ffprobe.exe`, and `ffplay.exe` inside the `resources/` folder.
+     And place `ffmpeg.exe`, `ffprobe.exe`, and `ffplay.exe` inside the `resources/` folder.
    - **macOS**:
      ```bash
      brew install ffmpeg
