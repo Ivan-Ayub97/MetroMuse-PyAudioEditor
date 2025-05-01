@@ -1,4 +1,4 @@
-Download the bin folder (which includes ffmpeg.exe, ffplay.exe, and ffprobe.exe) and place it in this directory.
+eDownload the ZIP file containing the bin for FFmpeg (which includes ffmpeg.exe, ffplay.exe, and ffprobe.exe), extract it, and place the exe files in this directory.
 You can get it from the official repository:
 🔗 https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip
 or from my Google Drive:
