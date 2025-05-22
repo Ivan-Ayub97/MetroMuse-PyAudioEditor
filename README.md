@@ -2,18 +2,18 @@
 ## MetroMuse — Audio Editor
 **Version 0.10.0 (INCOMPLETE BETA)**
 
-> ⚠️ **Disclaimer:** MetroMuse is currently in beta. Some features may be incomplete, unstable, or under development.
+> ⚠**Disclaimer:** MetroMuse is currently in beta. Some features may be incomplete, unstable, or under development.
 
 A **modern, cross-platform audio editor** with multitrack capabilities, enhanced waveform visualization, and an intuitive, sleek interface.
 
 ---
 
-## 📸 Preview
+## Preview
 
 ![Capture](Capture.png)
 
 ---
-## 🤝 Contributing
+## Contributing
 
 MetroMuse is open source and welcomes contributors! You can help by:
 
@@ -24,51 +24,51 @@ MetroMuse is open source and welcomes contributors! You can help by:
 - Translating to other languages
 ---
 
-## ✨ Features
+## Features
 
-### 🎚️ Multitrack Support
+### 🎚Multitrack Support
 - Manage multiple audio tracks effortlessly
 - Solo, mute, and volume control per track
 - Individual color coding and track organization
 - Synchronized playback across all tracks
 - Easy track naming and management
 
-### 📊 Enhanced Waveform Visualization
+### Enhanced Waveform Visualization
 - Interactive, zoomable waveform display
 - Adaptive time grids and markers
 - Real-time amplitude monitoring
 - Smooth zoom, scroll, and scrubbing functionality
 
-### ✂️ Audio Editing Tools
+### ✂Audio Editing Tools
 - Cut, copy, paste with precision
 - Selection-based and track-specific editing
 - Multiple undo/redo levels
 - Non-destructive editing workflow
 
-### 🎛️ Audio Effects
+### 🎛Audio Effects
 - Volume gain adjustment
 - Fade-in and fade-out effects
 - Real-time effect preview
 - Per-track parameter control
 
-### ▶️ Advanced Playback
+### ▶Advanced Playback
 - Synchronized multi-track playback
 - Real-time scrubbing and position tracking
 - Solo/mute functionality for detailed mixing
 
-### 🎨 Modern Interface
+### Modern Interface
 - Dark theme with accent color highlights
 - Large, accessible UI elements (48x48px)
 - Collapsible panels and intuitive navigation
 - Enhanced visual feedback
 
-### 💾 File Format Support
+### File Format Support
 - Import and export: WAV, FLAC, MP3, AAC
 - Drag-and-drop audio importing
 - Recent files management
 - Display of file metadata and information
-
-### 🔧 Under-the-Hood Technical Features
+  
+### Under-the-Hood Technical Features
 - Sample-accurate editing
 - High-quality multi-channel audio processing
 - Real-time waveform updates
@@ -76,7 +76,7 @@ MetroMuse is open source and welcomes contributors! You can help by:
 
 ---
 
-## 🛠️ Development Status (v0.10.0)
+## 🛠Development Status (v0.10.0)
 
 | Component        | Status        | Notes                                             |
 | ---------------- | ------------- | ------------------------------------------------- |
@@ -89,7 +89,7 @@ MetroMuse is open source and welcomes contributors! You can help by:
 
 ---
 
-## 🗂️ Project Structure
+## 🗂Project Structure
 
 ```
 MetroMuse/
@@ -113,7 +113,7 @@ MetroMuse/
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 - **PyQt5** – GUI framework
 - **numpy** – Audio processing
@@ -128,7 +128,7 @@ MetroMuse/
 
 ---
 
-## 🚀 Installation
+## Installation
 
 1. Clone the repository:
    ```bash
@@ -149,7 +149,7 @@ MetroMuse/
      And place `ffmpeg.exe`, `ffprobe.exe`, and `ffplay.exe` inside the `resources/` folder.
 ---
 
-## 🎮 Usage Guide
+## Usage Guide
 
 Run MetroMuse:
 
@@ -174,7 +174,7 @@ python src/metro_muse.py
 
 ---
 
-## 🔥 Planned Features
+## Planned Features
 
 - Spectrum analysis view
 - Additional effects: echo, reverb, equalization
@@ -186,7 +186,7 @@ python src/metro_muse.py
 
 ---
 
-## ⚠️ Known Issues
+## ⚠Known Issues
 
 - Exporting may fail if **ffmpeg** is not correctly configured
 - Some audio effects (echo, reverb) are under active development
@@ -195,7 +195,7 @@ python src/metro_muse.py
 
 ---
 
-## 💻 System Requirements
+## System Requirements
 
 - **Python**: 3.7 or higher
 - **External Tools**: ffmpeg (must be installed or included in `resources/`)
@@ -203,13 +203,13 @@ python src/metro_muse.py
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **[MIT License](LICENSE)**.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 - **Developer**: [Iván Eduardo Chavez Ayub](https://github.com/Ivan-Ayub97)
 - **Contact**: <negroayub97@gmail.com>
@@ -217,7 +217,7 @@ This project is licensed under the **[MIT License](LICENSE)**.
 
 ---
 
-## 🌟 Why MetroMuse?
+## Why MetroMuse?
 
 Because **sometimes you just need a simple, powerful editor that works**.
 MetroMuse is built to provide a **clean, accessible** environment for audio editing—**open-source, evolving**, and designed with a focus on **what matters most to creators**.
