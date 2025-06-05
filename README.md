@@ -1,5 +1,5 @@
 # ![MetroMuse](Banner.png)
-## MetroMuse — Audio Editor
+## MetroMuse — AudioEditor
 **Version 0.10.0 (INCOMPLETE BETA)**
 
 > ⚠**Disclaimer:** MetroMuse is currently in beta. Some features may be incomplete, unstable, or under development.
