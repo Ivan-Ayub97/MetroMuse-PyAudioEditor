@@ -157,7 +157,21 @@ For bug reports, suggestions or questions, reach out at negroayub97@gmail.com.
 
 ```
 MetroMuse/
-│
+├── Captures/
+│   ├── About_UI.png
+│   ├── Audio_Effects.png
+│   ├── Audio_Effects2.png
+│   ├── Audio_Effects3.png
+│   ├── Edit_Options.png
+│   ├── Effects_Options.png
+│   ├── File_Options.png
+│   ├── General_UI.png
+│   ├── Quick_Effects.png
+│   ├── Shortcuts_UI.png
+│   ├── View_Options.png
+│   ├── View_Options2.png.png
+│   └── View_Options3.png.png
+│ 
 ├── src/
 │   ├── metro_muse.py
 │   ├── audio_effects.py
@@ -174,10 +188,17 @@ MetroMuse/
 ├── resources/
 │   ├── ffmpeg.exe
 │   ├── ffprobe.exe
-│   └── ffplay.exe
+│   ├── ffplay.exe
+│   └── Download FFmpeg.txt
 │
-├── requirements.txt          
-└── README.md                 # This file
+├── Banner.png
+├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+├── SECURITY.md
+└── requirements.txt          
 ```
 
 ---
