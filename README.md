@@ -18,9 +18,13 @@ A **modern, cross-platform audio editor** with multitrack capabilities, enhanced
 
 ![File Options](Captures/File_Options.png)
 
-### 🔹 Edit Bottom Options                     ### 🔹 Effects Options
+### 🔹 Edit Bottom Options                     
 
-![Edit Options](Captures/Edit_Options.png)     ![Effects Options](Captures/Effects_Options.png)
+![Edit Options](Captures/Edit_Options.png)  
+
+### 🔹 Effects Options
+
+![Effects Options](Captures/Effects_Options.png)
 
 ### 🔹 Quick Effects Menu
 
