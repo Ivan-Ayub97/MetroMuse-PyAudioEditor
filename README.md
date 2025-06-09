@@ -10,6 +10,10 @@ A **modern, cross-platform audio editor** with multitrack capabilities, enhanced
 
 ## 📸 Interface Preview
 
+### 🔹 New Icon
+
+![General UI](rsc/icon.png)
+
 ### 🔹 General UI
 
 ![General UI](Captures/General_UI.png)
