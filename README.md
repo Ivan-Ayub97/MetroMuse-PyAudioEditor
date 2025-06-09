@@ -12,7 +12,7 @@ A **modern, cross-platform audio editor** with multitrack capabilities, enhanced
 
 ### 🔹 New Icon
 
-![General UI](src/icon.png)
+![General UI](src/icon.ico)
 
 ### 🔹 General UI
 
