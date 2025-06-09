@@ -6,6 +6,7 @@ We release regular updates to ensure the security of the project. Below is a lis
 
 | Version | Supported          |
 | ------- | ------------------ |
+| 0.12.x  | :white_check_mark:  |
 | 0.10.x  | :white_check_mark:  |
 
 **Note**: If you're using an unsupported version, we recommend updating to the latest stable version.
