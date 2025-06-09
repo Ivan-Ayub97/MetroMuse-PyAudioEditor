@@ -5,6 +5,15 @@
 > ⚠️ _Disclaimer:_ MetroMuse is currently in beta. Some features may be incomplete, unstable, or under development.
 
 A **modern, cross-platform audio editor** with multitrack capabilities, enhanced waveform visualization, and an intuitive, sleek interface.
+---
+
+Contributions
+We welcome your contributions!
+
+Fork the repo.
+Create a branch for your feature or fix.
+Submit a Pull Request with a clear description of your changes.
+For bug reports, suggestions or questions, reach out at negroayub97@gmail.com.
 
 ---
 
