@@ -1,4 +1,4 @@
-# ![MetroMuse](Banner.png)
+![MetroMuse](Banner.png)
 
 **Version 0.12.0 (INCOMPLETE BETA)**
 
@@ -7,7 +7,7 @@
 A **modern, cross-platform audio editor** with multitrack capabilities, enhanced waveform visualization, and an intuitive, sleek interface.
 ---
 
-Contributions
+## Contributions
 We welcome your contributions!
 
 Fork the repo.
