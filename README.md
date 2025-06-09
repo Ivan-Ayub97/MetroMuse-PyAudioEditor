@@ -34,7 +34,7 @@ A **modern, cross-platform audio editor** with multitrack capabilities, enhanced
 
 ![Quick Effects](Captures/Quick_Effects.png)
 
-### 🔹 Audio Effects UI
+### 🔹 Audio Effects Studio UI
 
 ![Audio Effects](Captures/Audio_Effects.png)
 ![Audio Effects 2](Captures/Audio_Effects2.png)
