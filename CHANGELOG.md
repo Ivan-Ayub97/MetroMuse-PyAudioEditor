@@ -2,6 +2,41 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.12.0] - 2025-06-09
+
+### Added
+
+- Full project save/load support with `.mmp` format
+- Recent project manager
+- Auto-save with modification tracking
+- Project templates and presets
+- Real-time performance monitor (CPU & RAM)
+- Quality vs. performance modes
+- System recommendations based on performance
+- Detailed error logging and automatic recovery
+- User-friendly error dialogs
+- Asynchronous audio loading
+- Automatic downsampling for waveform rendering
+- Performance-based waveform detail levels
+- Background resource management
+- Improved keyboard shortcuts and shortcut system
+
+### Changed
+
+- Optimized multitrack mixing engine for playback
+- Memory-efficient and optimized waveform rendering
+- Editing system with better error recovery
+- Polished UI with project-aware window title
+- Improved file format handling and metadata display
+
+### Fixed
+
+- Better performance with large audio files
+- Improved stability in real-time effect preview
+- Fixes in editing and playback control synchronization
+- Reduced memory usage during intensive tasks
+- Better handling of ffmpeg-related errors
+
 ## [0.10.0] - 2025-04-28
 
 ### Added

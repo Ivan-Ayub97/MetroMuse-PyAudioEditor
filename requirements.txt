@@ -1,14 +1,11 @@
-PyQt5
-numpy
-matplotlib
-pydub
-librosa
-# ffmpeg (required for mp3, acc, flac support in pydub - install from https://ffmpeg.org/download.html)
-<<<<<<< HEAD
-PyQt5-stubs
-PyQt5-Qt5
-qtsvg
-sounddevice
-python-qss
-=======
->>>>>>> 949dc71d3748738c23afdaeb21d0e4377d2c3bf3
+PyQt5>=5.15.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+pydub>=0.25.0
+librosa>=0.9.0
+sounddevice>=0.4.0
+scipy>=1.7.0
+PyQt5-stubs>=5.15.0
+psutil>=5.8.0
+# ffmpeg (required for mp3, aac, flac support in pydub - install from https://ffmpeg.org/download.html)
+# For Windows users: ffmpeg binaries are included in resources/ folder

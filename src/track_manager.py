@@ -1,23 +1,25 @@
 import os
 import uuid
 import threading
+import time
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple, Union
 
 import numpy as np
 import sounddevice as sd
 from scipy import signal
-from PyQt5.QtCore import Qt, QObject, pyqtSignal, pyqtSlot
+from PyQt5.QtCore import Qt, QObject, pyqtSignal, pyqtSlot, QTimer, QThread
 from PyQt5.QtGui import QColor, QIcon
 from PyQt5.QtWidgets import (
     QFrame, QHBoxLayout, QLabel, QSlider, QToolButton, 
     QVBoxLayout, QWidget, QLineEdit, QColorDialog, QScrollArea,
-    QSizePolicy, QPushButton, QMenu
+    QSizePolicy, QPushButton, QMenu, QProgressBar, QMessageBox
 )
 
 # Import the existing WaveformCanvas class
 from track_renderer import EnhancedWaveformCanvas
 from pydub import AudioSegment
+from error_handler import get_error_handler
 
 # Constants for UI
 DARK_BG = '#232629'
@@ -183,14 +185,37 @@ class AudioTrack(QObject):
     
     def set_audio_data(self, samples, sr, audio_segment=None, filepath=None):
         """Set the audio data for this track and update the waveform display"""
-        self.samples = samples
-        self.sr = sr
-        self.audio_segment = audio_segment
-        self.filepath = filepath
-        
-        if self.waveform_canvas and samples is not None and sr is not None:
-            self.waveform_canvas.plot_waveform(samples, sr)
-            self._update_header_info()
+        try:
+            self.samples = samples
+            self.sr = sr
+            self.audio_segment = audio_segment
+            self.filepath = filepath
+            
+            if self.waveform_canvas and samples is not None and sr is not None:
+                # For large files, update waveform in a separate thread to avoid UI blocking
+                if samples.size > 1000000:  # If more than 1M samples
+                    self._update_waveform_async(samples, sr)
+                else:
+                    self.waveform_canvas.plot_waveform(samples, sr)
+                self._update_header_info()
+                
+        except Exception as e:
+            get_error_handler().log_error(f"Error setting audio data for track {self.name}: {str(e)}")
+            raise
+    
+    def _update_waveform_async(self, samples, sr):
+        """Update waveform asynchronously for large files"""
+        try:
+            # Downsample for display if file is very large
+            if samples.size > 5000000:  # If more than 5M samples
+                # Downsample to every 10th sample for display
+                display_samples = samples[::10] if samples.ndim == 1 else samples[:, ::10]
+                display_sr = sr // 10
+                self.waveform_canvas.plot_waveform(display_samples, display_sr)
+            else:
+                self.waveform_canvas.plot_waveform(samples, sr)
+        except Exception as e:
+            get_error_handler().log_error(f"Error updating waveform for track {self.name}: {str(e)}")
     
     def _update_header_info(self):
         """Update header with audio information"""

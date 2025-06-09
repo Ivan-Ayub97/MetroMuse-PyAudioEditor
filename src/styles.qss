@@ -6,17 +6,17 @@
     color-dark-bg: #232629;
     color-darker-bg: #1a1d23;
     color-light-fg: #eef1f4;
-    color-accent: #47cbff;
+    color-accent: #ffea47;
     color-secondary-accent: #ff6b6b;
     color-success: #5ad95a;
     color-warning: #ffc14d;
-    
+
     /* Secondary Colors */
     color-panel-bg: #21242b;
     color-border: #31343a;
     color-button-bg: #2a2e36;
     color-button-hover: #383c45;
-    color-selected: #3a6d99;
+    color-selected: #ffea47;
 }
 
 /* Main Application Window */
@@ -48,12 +48,12 @@ QPushButton:hover, QToolButton:hover {
 }
 
 QPushButton:pressed, QToolButton:pressed {
-    background-color: #47cbff;
+    background-color: #ffea47;
     color: #000000;
 }
 
 QPushButton:checked, QToolButton:checked {
-    background-color: #47cbff;
+    background-color: #ffea47;
     color: #000000;
 }
 
@@ -112,7 +112,7 @@ QSlider::groove:horizontal {
 }
 
 QSlider::handle:horizontal {
-    background-color: #47cbff;
+    background-color: #ffea47;
     width: 18px;
     height: 18px;
     margin: -5px 0;
@@ -120,7 +120,7 @@ QSlider::handle:horizontal {
 }
 
 QSlider::handle:horizontal:hover {
-    background-color: #6bd7ff;
+    background-color: #ffea47;
 }
 
 QProgressBar {
@@ -132,7 +132,7 @@ QProgressBar {
 }
 
 QProgressBar::chunk {
-    background-color: #47cbff;
+    background-color: #ffea47;
     border-radius: 4px;
 }
 
@@ -240,7 +240,7 @@ QTabBar::tab {
 
 QTabBar::tab:selected {
     background-color: #21242b;
-    border-bottom: 2px solid #47cbff;
+    border-bottom: 2px solid #ffea47;
 }
 
 QTabBar::tab:hover:!selected {
@@ -263,7 +263,7 @@ QStatusBar::item {
 QToolTip {
     background-color: #21242b;
     color: #eef1f4;
-    border: 1px solid #47cbff;
+    border: 1px solid #ffea47;
     border-radius: 4px;
     padding: 6px;
 }
@@ -291,7 +291,7 @@ WaveformCanvas {
 }
 
 #VolumeSlider::handle:horizontal {
-    background-color: #47cbff;
+    background-color: #ffea47;
     width: 16px;
     height: 16px;
     margin: -6px 0;

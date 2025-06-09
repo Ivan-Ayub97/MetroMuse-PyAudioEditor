@@ -164,13 +164,19 @@ class EnhancedWaveformCanvas(FigureCanvas):
         """Draw adaptive time grid with time markers based on zoom level"""
         # Clear existing grid lines and markers
         for line in self.grid_lines:
-            if line in self.ax.lines:
-                self.ax.lines.remove(line)
+            try:
+                line.remove()
+            except (ValueError, AttributeError):
+                # Line might already be removed or not in the axes
+                pass
         self.grid_lines = []
         
         for text in self.time_markers:
-            if text in self.ax.texts:
+            try:
                 text.remove()
+            except (ValueError, AttributeError):
+                # Text might already be removed or not in the axes
+                pass
         self.time_markers = []
         
         if not self.grid_visible:
@@ -257,8 +263,11 @@ class EnhancedWaveformCanvas(FigureCanvas):
         # Remove previous selection patch if it exists
         if hasattr(self, "_sel_patch") and self._sel_patch:
             for patch in self._sel_patch:
-                if patch in self.ax.patches:
+                try:
                     patch.remove()
+                except (ValueError, AttributeError):
+                    # Patch might already be removed or not in the axes
+                    pass
         self._sel_patch = []
         
         # Draw new selection if present
@@ -320,8 +329,12 @@ class EnhancedWaveformCanvas(FigureCanvas):
     def _draw_playhead(self):
         """Draw the playhead indicator line"""
         # Remove previous playhead
-        if self.playhead_line is not None and self.playhead_line in self.ax.lines:
-            self.playhead_line.remove()
+        if self.playhead_line is not None:
+            try:
+                self.playhead_line.remove()
+            except (ValueError, AttributeError):
+                # Playhead line might already be removed or not in the axes
+                pass
             
         # Draw new playhead
         self.playhead_line = self.ax.axvline(
@@ -572,11 +585,17 @@ class EnhancedWaveformCanvas(FigureCanvas):
         """Update cursor information display with time and amplitude"""
         # Remove previous cursor markers
         if self.live_cursor_line is not None:
-            self.live_cursor_line.remove()
+            try:
+                self.live_cursor_line.remove()
+            except (ValueError, AttributeError):
+                pass
             self.live_cursor_line = None
             
         if self.live_cursor_text is not None:
-            self.live_cursor_text.remove()
+            try:
+                self.live_cursor_text.remove()
+            except (ValueError, AttributeError):
+                pass
             self.live_cursor_text = None
         
         # Only proceed if cursor is in the plot area
@@ -647,13 +666,17 @@ class EnhancedWaveformCanvas(FigureCanvas):
         else:
             # Clear existing grid lines and markers
             for line in self.grid_lines:
-                if line in self.ax.lines:
-                    self.ax.lines.remove(line)
+                try:
+                    line.remove()
+                except (ValueError, AttributeError):
+                    pass
             self.grid_lines = []
             
             for text in self.time_markers:
-                if text in self.ax.texts:
+                try:
                     text.remove()
+                except (ValueError, AttributeError):
+                    pass
             self.time_markers = []
         
         self.draw()
