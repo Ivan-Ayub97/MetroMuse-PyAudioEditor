@@ -35,7 +35,7 @@ For bug reports, suggestions or questions, reach out at negroayub97@gmail.com.
 
 ![Edit Options](Captures/Edit_Options.png)  
 
-### 🔹 Effects Options
+### 🔹 Effects Bottom Options
 
 ![Effects Options](Captures/Effects_Options.png)
 
