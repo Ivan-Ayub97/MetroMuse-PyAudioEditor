@@ -27,14 +27,6 @@ For bug reports, suggestions or questions, reach out at negroayub97@gmail.com.
 
 ![General UI](Captures/General_UI.png)
 
-### 🔹 File Bottom Options
-
-![File Options](Captures/File_Options.png)
-
-### 🔹 Edit Bottom Options                     
-
-![Edit Options](Captures/Edit_Options.png)  
-
 ### 🔹 Effects Bottom Options
 
 ![Effects Options](Captures/Effects_Options.png)
@@ -48,6 +40,14 @@ For bug reports, suggestions or questions, reach out at negroayub97@gmail.com.
 ![Audio Effects](Captures/Audio_Effects.png)
 ![Audio Effects 2](Captures/Audio_Effects2.png)
 ![Audio Effects 3](Captures/Audio_Effects3.png)
+
+### 🔹 File Bottom Options
+
+![File Options](Captures/File_Options.png)
+
+### 🔹 Edit Bottom Options                     
+
+![Edit Options](Captures/Edit_Options.png)  
 
 ### 🔹 View Bottom Options
 
