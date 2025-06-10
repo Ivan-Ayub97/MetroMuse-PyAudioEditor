@@ -38,8 +38,8 @@ For bug reports, suggestions or questions, reach out at negroayub97@gmail.com.
 ### 🔹 Effects Bottom Options
 
 ![Effects Options](Captures/Effects_Options.png)
-
-### 🔹 Quick Effects Menu
+   
+    🔹 Quick Effects Menu
 
 ![Quick Effects](Captures/Quick_Effects.png)
 
@@ -49,13 +49,13 @@ For bug reports, suggestions or questions, reach out at negroayub97@gmail.com.
 ![Audio Effects 2](Captures/Audio_Effects2.png)
 ![Audio Effects 3](Captures/Audio_Effects3.png)
 
-### 🔹 View Options
+### 🔹 View Bottom Options
 
 ![View Options](Captures/View_Options.png)
 ![View Options 2](Captures/View_Options2.png.png)
 ![View Options 3](Captures/View_Options3.png.png)
 
-### 🔹 Shortcuts & About
+### 🔹 Shortcuts & About 
 
 ![Shortcuts UI](Captures/Shortcuts_UI.png)
 ![About UI](Captures/About_UI.png)
