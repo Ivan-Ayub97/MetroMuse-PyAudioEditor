@@ -39,7 +39,7 @@ For bug reports, suggestions or questions, reach out at negroayub97@gmail.com.
 
 ![Effects Options](Captures/Effects_Options.png)
    
-    🔹 Quick Effects Menu
+### 🔹 Quick Effects Menu
 
 ![Quick Effects](Captures/Quick_Effects.png)
 
