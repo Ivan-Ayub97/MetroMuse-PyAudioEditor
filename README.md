@@ -17,11 +17,11 @@ For bug reports, suggestions or questions, reach out at negroayub97@gmail.com.
 
 ---
 
-## 📸 Interface Preview
-
 ### 🔹 New Icon
 
 ![General UI](src/icon.ico)
+
+## 📸 Interface Preview
 
 ### 🔹 General UI
 
