@@ -1,64 +1,20 @@
-![MetroMuse](Banner.png)
+# ![MetroMuse](Banner.png)
 
-**Version 0.12.0 (INCOMPLETE BETA)**
+# **MetroMuse – PyAudioEditor**
 
-> ⚠️ _Disclaimer:_ MetroMuse is currently in beta. Some features may be incomplete, unstable, or under development.
+### Version 0.12.0 — *INCOMPLETE BETA*
 
-### **A modern, cross-platform audio editor** with multitrack capabilities, enhanced waveform visualization, and an intuitive, sleek interface.
-
----
-
-## Contributions
-We welcome your contributions!
-Fork the repo.
-Create a branch for your feature or fix.
-Submit a Pull Request with a clear description of your changes.
-For bug reports, suggestions or questions, reach out at negroayub97@gmail.com.
+> ⚠️ **Disclaimer:** *MetroMuse is currently in beta. Some features may be incomplete, unstable, or under development.*
 
 ---
 
-### 🔹 New Icon
+## 🎵 What is MetroMuse?
 
-![General UI](src/icon.ico)
+**MetroMuse** is a **modern, cross-platform audio editor** featuring:
 
-## 📸 Interface Preview
-
-### 🔹 General UI
-
-![General UI](Captures/General_UI.png)
-
-### 🔹 Effects Bottom Options
-
-![Effects Options](Captures/Effects_Options.png)
-   
-### 🔹 Quick Effects Menu
-
-![Quick Effects](Captures/Quick_Effects.png)
-
-### 🔹 Audio Effects Studio UI
-
-![Audio Effects](Captures/Audio_Effects.png)
-![Audio Effects 2](Captures/Audio_Effects2.png)
-![Audio Effects 3](Captures/Audio_Effects3.png)
-
-### 🔹 File Bottom Options
-
-![File Options](Captures/File_Options.png)
-
-### 🔹 Edit Bottom Options                     
-
-![Edit Options](Captures/Edit_Options.png)  
-
-### 🔹 View Bottom Options
-
-![View Options](Captures/View_Options.png)
-![View Options 2](Captures/View_Options2.png.png)
-![View Options 3](Captures/View_Options3.png.png)
-
-### 🔹 Shortcuts & About 
-
-![Shortcuts UI](Captures/Shortcuts_UI.png)
-![About UI](Captures/About_UI.png)
+* Multitrack capabilities
+* Enhanced waveform visualization
+* An intuitive, sleek interface built for creators
 
 ---
 
@@ -66,197 +22,189 @@ For bug reports, suggestions or questions, reach out at negroayub97@gmail.com.
 
 ### 🎚️ Multitrack Support
 
-- Solo, mute, and volume per track
-- Color coding & track naming
-- Synchronized playback
-- **NEW:** Asynchronous audio loading
-- **NEW:** Optimized waveform rendering
+* Solo, mute, and volume per track
+* Color coding & track naming
+* Synchronized playback
+* **NEW:** Asynchronous audio loading
+* **NEW:** Optimized waveform rendering
 
 ### 📊 Waveform Visualization
 
-- Zoomable, interactive display
-- Adaptive time grids & real-time amplitude
-- **NEW:** Automatic downsampling
-- **NEW:** Performance-based detail levels
+* Zoomable, interactive display
+* Adaptive time grids & real-time amplitude
+* **NEW:** Automatic downsampling
+* **NEW:** Performance-based detail levels
 
 ### ✂️ Editing Tools
 
-- Cut, copy, paste with precision
-- Non-destructive edits & track-specific editing
-- **NEW:** Improved error recovery
-- **NEW:** Enhanced keyboard shortcuts
+* Cut, copy, paste with precision
+* Non-destructive edits & track-specific editing
+* **NEW:** Enhanced keyboard shortcuts
+* **NEW:** Improved error recovery
 
 ### 💾 Project System
 
-- **NEW:** Full save/load with `.mmp` format
-- **NEW:** Recent project manager
-- **NEW:** Auto-save & tracking
-- **NEW:** Project templates/presets
+* **NEW:** `.mmp` project save/load
+* **NEW:** Recent projects manager
+* **NEW:** Auto-save & change tracking
+* **NEW:** Project templates/presets
 
 ### 🔧 Performance Monitoring
 
-- **NEW:** Real-time CPU/RAM usage
-- **NEW:** Quality/Performance modes
-- **NEW:** System recommendations
+* **NEW:** Real-time CPU/RAM usage
+* **NEW:** Quality/Performance modes
+* **NEW:** System optimization engine
 
 ### 🛡️ Error Handling
 
-- **NEW:** Detailed logging
-- **NEW:** Friendly error dialogs
-- **NEW:** Auto recovery & warnings
+* **NEW:** Detailed logging system
+* **NEW:** User-friendly error dialogs
+* **NEW:** Auto recovery & warning prompts
 
 ### 🎛️ Audio Effects
 
-- Volume, fade-in/out, real-time previews
-- Per-track parameters
+* Volume, fade in/out, preview in real-time
+* Per-track effect control
 
 ### ▶️ Playback
 
-- Real-time scrubbing & synced playback
-- **NEW:** Optimized mixing engine
+* Scrubbing & synced playback
+* **NEW:** Optimized multitrack engine
 
 ### 🎨 UI/UX
 
-- Dark theme with highlights
-- Accessible 48x48px elements
-- **NEW:** Improved shortcuts & project-aware window title
+* Dark theme, high-contrast icons (48×48 px)
+* **NEW:** Context-aware window title
+* **NEW:** Streamlined shortcuts
 
 ### 💾 File Formats
 
-- WAV, MP3, AAC, FLAC support
-- Drag-and-drop + metadata display
-- **NEW:** Better format handling
+* Supports WAV, MP3, AAC, FLAC
+* Drag-and-drop audio + metadata support
+* **NEW:** Better format handling
 
 ### ⚙️ Technical Highlights
 
-- Sample-accurate edits
-- Real-time waveform updates
-- **NEW:** Memory-efficient rendering
-- **NEW:** Background processing
-- **NEW:** Auto resource management
+* Sample-accurate editing
+* Real-time waveform rendering
+* **NEW:** Memory-efficient processing
+* **NEW:** Background tasking
+* **NEW:** Smart resource management
 
 ---
 
-## 🛠️ Development Status — v0.12.0
+## 🛠️ Development Status (v0.12.0)
 
-| Component           | Status        | Notes                                                       |
-| ------------------- | ------------- | ----------------------------------------------------------- |
-| Waveform Display    | 🟢 Enhanced   | Includes scrubbing, time grid, markers, optimized rendering |
-| Multitrack System   | 🟢 Enhanced   | Full support with controls and async loading                |
-| Editing Tools       | 🟢 Enhanced   | Multi-level undo/redo & improved editing                    |
-| Project Management  | 🟢 New        | Save/load with `.mmp`, autosave, templates                  |
-| Error Handling      | 🟢 New        | Full logging + recovery                                     |
-| Performance Monitor | 🟢 New        | CPU/memory display + optimization engine                    |
-| Exporting           | 🟡 Functional | Supports WAV, FLAC, MP3, AAC                                |
-| Playback            | 🟡 Enhanced   | Real-time multitrack playback with improvements             |
-| UI/UX               | 🟢 Enhanced   | Polished, responsive, shortcut-friendly                     |
+| Component           | Status        | Notes                                   |
+| ------------------- | ------------- | --------------------------------------- |
+| Waveform Display    | 🟢 Enhanced   | Scrubbing, markers, optimized rendering |
+| Multitrack System   | 🟢 Enhanced   | Full controls, async loading            |
+| Editing Tools       | 🟢 Enhanced   | Undo/redo, improved interaction         |
+| Project Management  | 🟢 New        | `.mmp` format, autosave, templates      |
+| Error Handling      | 🟢 New        | Logging, dialogs, recovery              |
+| Performance Monitor | 🟢 New        | Realtime CPU/memory usage               |
+| Exporting           | 🟡 Functional | Supports WAV, MP3, AAC, FLAC            |
+| Playback            | 🟡 Enhanced   | Real-time, multitrack improvements      |
+| UI/UX               | 🟢 Enhanced   | Shortcuts, responsiveness, polish       |
 
 ---
 
-## 🗂️ Project Structure
+## 📸 Interface Preview
 
-```
-MetroMuse/
-├── Captures/
-│   ├── About_UI.png
-│   ├── Audio_Effects.png
-│   ├── Audio_Effects2.png
-│   ├── Audio_Effects3.png
-│   ├── Edit_Options.png
-│   ├── Effects_Options.png
-│   ├── File_Options.png
-│   ├── General_UI.png
-│   ├── Quick_Effects.png
-│   ├── Shortcuts_UI.png
-│   ├── View_Options.png
-│   ├── View_Options2.png.png
-│   └── View_Options3.png.png
-│ 
-├── src/
-│   ├── metro_muse.py          # Main file
-│   ├── audio_effects.py
-│   ├── error_handler.py
-│   ├── performance_monitor.py
-│   ├── project_manager.py
-│   ├── ui_manager.py
-│   ├── track_manager.py
-│   ├── track_renderer.py
-│   ├── styles.qss
-│   ├── icon.png
-│   └── icon.ico
-│
-├── resources/
-│   ├── ffmpeg.exe
-│   ├── ffprobe.exe
-│   ├── ffplay.exe
-│   └── Download FFmpeg.txt
-│
-├── Banner.png
-├── CHANGELOG.md
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── README.md                  # This File
-├── SECURITY.md
-└── requirements.txt          
-```
+### 🔹 New Icon
+
+![Icon](src/icon.ico)
+
+### 🔹 General UI
+
+![General UI](Captures/General_UI.png)
+
+### 🔹 Effects Options
+
+![Effects Options](Captures/Effects_Options.png)
+
+### 🔹 Quick Effects Menu
+
+![Quick Effects](Captures/Quick_Effects.png)
+
+### 🔹 Audio Effects Studio
+
+![Audio Effects](Captures/Audio_Effects.png)
+![Audio Effects 2](Captures/Audio_Effects2.png)
+![Audio Effects 3](Captures/Audio_Effects3.png)
+
+### 🔹 File & Edit Menus
+
+![File Options](Captures/File_Options.png)
+![Edit Options](Captures/Edit_Options.png)
+
+### 🔹 View Menu
+
+![View Options](Captures/View_Options.png)
+![View Options 2](Captures/View_Options2.png.png)
+![View Options 3](Captures/View_Options3.png.png)
+
+### 🔹 Shortcuts & About
+
+![Shortcuts](Captures/Shortcuts_UI.png)
+![About](Captures/About_UI.png)
 
 ---
 
 ## 📦 Dependencies
 
-### Core
+### Core Libraries
 
-- `PyQt5` (>=5.15.0)
-- `numpy` (>=1.21.0)
-- `matplotlib` (>=3.5.0)
-- `pydub` (>=0.25.0)
-- `librosa` (>=0.9.0)
-- `sounddevice` (>=0.4.0)
-- `scipy` (>=1.7.0)
+* `PyQt5` (>=5.15.0)
+* `numpy` (>=1.21.0)
+* `matplotlib` (>=3.5.0)
+* `pydub` (>=0.25.0)
+* `librosa` (>=0.9.0)
+* `sounddevice` (>=0.4.0)
+* `scipy` (>=1.7.0)
 
-### Enhancements
+### Optional Enhancements
 
-- `psutil` (>=5.8.0) — Performance tracking
-- `PyQt5-stubs` (>=5.15.0) — Type hinting
+* `psutil` (>=5.8.0) — system monitoring
+* `PyQt5-stubs` — for development with type hinting
 
 ### External Tools
 
-- `ffmpeg` — Required for MP3, AAC, FLAC
+* **ffmpeg** — for MP3, AAC, FLAC support
 
-  - **Windows:** Binaries included in `resources/`
-  - **Linux/macOS:** Install via package manager or [ffmpeg.org](https://ffmpeg.org)
+  * Windows: binaries included in `resources/`
+  * Linux/macOS: install via package manager or [ffmpeg.org](https://ffmpeg.org)
 
 ---
 
 ## 🚀 Installation
 
-1. **Clone repository:**
+1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/Ivan-Ayub97/MetroMuse-AudioEditor.git
-   cd MetroMuse
-   ```
+```bash
+git clone https://github.com/Ivan-Ayub97/MetroMuse-AudioEditor.git
+cd MetroMuse
+```
 
-2. **Install Python dependencies:**
+2. **Install required Python packages:**
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
 3. **Install ffmpeg (Windows):**
 
-   ```bash
-   winget install ffmpeg
-   ```
+```bash
+winget install ffmpeg
+```
 
-   Copy `ffmpeg.exe`, `ffprobe.exe`, `ffplay.exe` to the `resources/` folder.
+Then, copy `ffmpeg.exe`, `ffprobe.exe`, and `ffplay.exe` into the `resources/` folder.
 
 ---
 
-## 🎮 Usage Guide
+## 🎮 Usage
 
-### Launch
+### Launch the App
 
 ```bash
 python src/metro_muse.py
@@ -273,7 +221,7 @@ python src/metro_muse.py
 
 ### 🎧 Audio Tasks
 
-| Action       | Shortcut/Action                         |
+| Action       | Shortcut / Action                       |
 | ------------ | --------------------------------------- |
 | Import Audio | Ctrl+O / Drag-and-drop / "Import Audio" |
 | Export Audio | Ctrl+E                                  |
@@ -282,13 +230,13 @@ python src/metro_muse.py
 
 ### ⏯ Playback Controls
 
-| Action       | Shortcut/Action         |
-| ------------ | ----------------------- |
-| Play/Pause   | Spacebar                |
-| Stop         | Esc                     |
-| Rewind       | Home                    |
-| Fast Forward | End                     |
-| Scrub        | Click and drag waveform |
+| Action       | Shortcut              |
+| ------------ | --------------------- |
+| Play/Pause   | Spacebar              |
+| Stop         | Esc                   |
+| Rewind       | Home                  |
+| Fast Forward | End                   |
+| Scrub        | Click + Drag Waveform |
 
 ### ✂️ Edit Commands
 
@@ -313,51 +261,89 @@ python src/metro_muse.py
 
 ## 🔥 Recent Enhancements (v0.12.0)
 
-- ✅ Project save/load with `.mmp`
-- ✅ Auto-save & modification tracking
-- ✅ Error logging + recovery
-- ✅ Performance monitor
-- ✅ Async audio loading
-- ✅ Memory-efficient waveform
-- ✅ Enhanced keyboard shortcuts
+* ✅ `.mmp` project format with full save/load
+* ✅ Auto-save with tracking
+* ✅ Detailed error logging
+* ✅ Real-time performance monitor
+* ✅ Async audio file handling
+* ✅ Memory-optimized waveform renderer
+* ✅ Shortcut improvements
 
 ---
 
 ## 🚧 Upcoming Features
 
-- Spectrum analyzer
-- VST plugin support
-- Track automation
-- MIDI support
-- Audio recording
-- Plugin/effect chain manager
-- Advanced export settings
-- In-app guides/onboarding
-- Theme/layout customization
+* Spectrum analyzer
+* VST plugin support
+* Track automation
+* MIDI input
+* Recording interface
+* Effect chain manager
+* Export profiles/settings
+* In-app guides/tutorials
+* Full theme customization
 
 ---
 
 ## ⚠️ Known Issues
 
-- Exporting fails without proper `ffmpeg` setup
-- Effects like echo/reverb in progress
-- VST plugin support pending
-- Large files (>500MB) may lag
-- Real-time preview may stutter on weak machines
+* Exporting fails if `ffmpeg` isn’t properly set up
+* Echo/reverb effect modules still in progress
+* No VST support yet
+* Performance dips with large files (>500MB)
+* Preview lag possible on low-spec hardware
 
 ---
 
 ## 💻 System Requirements
 
-- **Python**: 3.7+
-- **ffmpeg** installed or placed in `resources/`
-- All [listed dependencies](#-dependencies)
+* **Python**: 3.7+
+* **FFmpeg**: Installed or placed in `resources/`
+* See [Dependencies](#-dependencies) section above
 
 ---
 
-## 📄 License
+## 🗂️ Project Structure
 
-Licensed under the **[MIT License](LICENSE)**.
+```
+MetroMuse/
+├── Captures/
+│   └── ...interface screenshots
+├── src/
+│   ├── metro_muse.py
+│   ├── audio_effects.py
+│   ├── error_handler.py
+│   ├── performance_monitor.py
+│   ├── project_manager.py
+│   ├── ui_manager.py
+│   ├── track_manager.py
+│   ├── track_renderer.py
+│   ├── styles.qss
+│   ├── icon.png
+│   └── icon.ico
+├── resources/
+│   └── ffmpeg files
+├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── SECURITY.md
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## 🤝 Contributions
+
+We welcome your help to improve MetroMuse!
+
+1. Fork the repo
+2. Create a new branch for your feature or fix
+3. Submit a **pull request** with a clear description
+
+💬 Bug reports, ideas, or questions?
+📧 Contact: [negroayub97@gmail.com](mailto:negroayub97@gmail.com)
 
 ---
 
@@ -366,11 +352,11 @@ Licensed under the **[MIT License](LICENSE)**.
 **Iván Eduardo Chavez Ayub**
 🔗 [GitHub](https://github.com/Ivan-Ayub97)
 📧 [negroayub97@gmail.com](mailto:negroayub97@gmail.com)
-🛠️ Tech: Python, PyQt5, pydub, librosa
+🛠️ Python, PyQt5, pydub, librosa
 
 ---
 
 ## 🌟 Why MetroMuse?
 
-Because sometimes, you just need a **simple, powerful editor that works**.
-MetroMuse offers a **clean, focused** environment for audio editing — **open-source, evolving**, and built with **creators in mind**.
+Because sometimes you just need a **simple, powerful editor that works**.
+**MetroMuse** is built with **focus, clarity, and creativity in mind** — open-source, evolving, and creator-driven.
