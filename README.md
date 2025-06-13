@@ -173,7 +173,7 @@ MetroMuse/
 │   └── View_Options3.png.png
 │ 
 ├── src/
-│   ├── metro_muse.py
+│   ├── metro_muse.py             #Main file
 │   ├── audio_effects.py
 │   ├── error_handler.py
 │   ├── performance_monitor.py
@@ -196,7 +196,7 @@ MetroMuse/
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── LICENSE
-├── README.md
+├── README.md                 #This File
 ├── SECURITY.md
 └── requirements.txt          
 ```
