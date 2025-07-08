@@ -310,7 +310,7 @@ MetroMuse/
 ├── Captures/
     └── ...interface screenshots
 ├── src/
-    ├── metro_muse.py
+    ├── metro_muse.py     #Main
     ├── audio_effects.py
     ├── error_handler.py
     ├── performance_monitor.py
@@ -320,7 +320,7 @@ MetroMuse/
     ├── track_renderer.py
     ├── styles.qss
     ├── icon.png
-    └── icon.ico 
+    └── icon.ico          #icon
 ├── resources/
     ├── ffmpeg.exe
     ├── ffplay.exe
@@ -330,7 +330,7 @@ MetroMuse/
 ├── CONTRIBUTING.md
 ├── LICENSE
 ├── SECURITY.md
-├── README.md
+├── README.md             #this_file
 └── requirements.txt
 ```
 
