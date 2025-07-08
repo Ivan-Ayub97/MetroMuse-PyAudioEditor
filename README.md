@@ -322,7 +322,7 @@ MetroMuse/
 │   ├── icon.png
 │   └── icon.ico
 ├── resources/
-│   └── ffmpeg.exe
+    ├── ffmpeg.exe
     ├── ffplay.exe
     └── ffprobe.exe
 ├── CHANGELOG.md
