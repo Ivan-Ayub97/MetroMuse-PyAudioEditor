@@ -308,26 +308,23 @@ python src/metro_muse.py
 ```
 MetroMuse/
 ├── Captures/
-│   └── ...interface screenshots
-│ 
+    └── ...interface screenshots
 ├── src/
-│   ├── metro_muse.py
-│   ├── audio_effects.py
-│   ├── error_handler.py
-│   ├── performance_monitor.py
-│   ├── project_manager.py
-│   ├── ui_manager.py
-│   ├── track_manager.py
-│   ├── track_renderer.py
-│   ├── styles.qss
-│   ├── icon.png
-│   └── icon.ico
-│ 
+    ├── metro_muse.py
+    ├── audio_effects.py
+    ├── error_handler.py
+    ├── performance_monitor.py
+    ├── project_manager.py
+    ├── ui_manager.py
+    ├── track_manager.py
+    ├── track_renderer.py
+    ├── styles.qss
+    ├── icon.png
+    └── icon.ico 
 ├── resources/
     ├── ffmpeg.exe
     ├── ffplay.exe
     └── ffprobe.exe
-│ 
 ├── CHANGELOG.md
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
