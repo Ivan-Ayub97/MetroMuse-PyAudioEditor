@@ -309,6 +309,7 @@ python src/metro_muse.py
 MetroMuse/
 ├── Captures/
 │   └── ...interface screenshots
+│ 
 ├── src/
 │   ├── metro_muse.py
 │   ├── audio_effects.py
@@ -321,10 +322,12 @@ MetroMuse/
 │   ├── styles.qss
 │   ├── icon.png
 │   └── icon.ico
+│ 
 ├── resources/
     ├── ffmpeg.exe
     ├── ffplay.exe
     └── ffprobe.exe
+│ 
 ├── CHANGELOG.md
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
