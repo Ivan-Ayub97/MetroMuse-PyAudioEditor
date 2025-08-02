@@ -302,12 +302,10 @@ python src/metro_muse.py
 * **Python**: 3.7+
 * **FFmpeg**: Installed or placed in `resources/`
 * See [Dependencies](#-dependencies) section above
-
+<div>
 ---
 
 ## 🗂️ Project Structure
-
-<div>
 
 ```
 MetroMuse/
