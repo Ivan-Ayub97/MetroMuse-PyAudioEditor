@@ -307,31 +307,35 @@ python src/metro_muse.py
 
 ```
 MetroMuse/
-├── Captures/
-    └── ...interface screenshots
-├── src/
-    ├── metro_muse.py     #Main
-    ├── audio_effects.py
-    ├── error_handler.py
-    ├── performance_monitor.py
-    ├── project_manager.py
-    ├── ui_manager.py
-    ├── track_manager.py
-    ├── track_renderer.py
-    ├── styles.qss
-    ├── icon.png
-    └── icon.ico          #icon
-├── resources/
-    ├── ffmpeg.exe
-    ├── ffplay.exe
-    └── ffprobe.exe
-├── CHANGELOG.md
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── SECURITY.md
-├── README.md             #this_file
-└── requirements.txt
+├── Captures/                      # Screenshots of the interface
+│   └── ...                       
+│
+├── src/                           # Main source code
+│   ├── metro_muse.py             # Main entry point
+│   ├── audio_effects.py          # Audio processing effects
+│   ├── error_handler.py          # Error handling utilities
+│   ├── performance_monitor.py    # Performance tracking
+│   ├── project_manager.py        # Project loading/saving logic
+│   ├── track_manager.py          # Handles audio tracks
+│   ├── track_renderer.py         # Track visualization or rendering
+│   ├── ui_manager.py             # GUI management
+│   ├── styles.qss                # Qt Style Sheet
+│   ├── icon.png                  # App icon (PNG)
+│   └── icon.ico                  # App icon (ICO)
+│
+├── resources/                    # Bundled third-party binaries
+│   ├── ffmpeg.exe
+│   ├── ffplay.exe
+│   └── ffprobe.exe
+│
+├── requirements.txt              # Python dependencies
+├── README.md                     # Project overview
+├── CHANGELOG.md                  # Version history
+├── LICENSE                       # License information
+├── CODE_OF_CONDUCT.md           # Contributor behavior guidelines
+├── CONTRIBUTING.md              # Guidelines for contributing
+└── SECURITY.md                  # Security policies and contact
+
 ```
 
 ---
