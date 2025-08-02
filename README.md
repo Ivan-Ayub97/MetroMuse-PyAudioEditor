@@ -1,5 +1,7 @@
 # ![MetroMuse](Banner.png)
 
+<div align="center">
+ 
 # **MetroMuse – PyAudioEditor**
 
 ### Version 0.12.0 — *INCOMPLETE BETA*
@@ -305,6 +307,8 @@ python src/metro_muse.py
 
 ## 🗂️ Project Structure
 
+<div>
+
 ```
 MetroMuse/
 ├── Captures/                      # Screenshots of the interface
@@ -337,7 +341,7 @@ MetroMuse/
 └── SECURITY.md                  # Security policies and contact
 
 ```
-
+<div align="center">
 ---
 
 ## 🤝 Contributions
@@ -360,6 +364,7 @@ We welcome your help to improve MetroMuse!
 📧 [negroayub97@gmail.com](mailto:negroayub97@gmail.com)
 🛠️ Python, PyQt5, pydub, librosa
 
+<div>
 ---
 
 ## 🌟 Why MetroMuse?
