@@ -302,10 +302,12 @@ python src/metro_muse.py
 * **Python**: 3.7+
 * **FFmpeg**: Installed or placed in `resources/`
 * See [Dependencies](#-dependencies) section above
-<div>
+
 ---
 
 ## 🗂️ Project Structure
+
+</div>
 
 ```
 MetroMuse/
@@ -362,10 +364,10 @@ We welcome your help to improve MetroMuse!
 📧 [negroayub97@gmail.com](mailto:negroayub97@gmail.com)
 🛠️ Python, PyQt5, pydub, librosa
 
-<div>
 ---
 
 ## 🌟 Why MetroMuse?
 
 Because sometimes you just need a **simple, powerful editor that works**.
 **MetroMuse** is built with **focus, clarity, and creativity in mind** — open-source, evolving, and creator-driven.
+</div>
