@@ -2,8 +2,6 @@
 
 <div align="center">
  
-# **MetroMuse – PyAudioEditor**
-
 ### Version 0.12.0 — *INCOMPLETE BETA*
 
 > ⚠️ **Disclaimer:** *MetroMuse is currently in beta. Some features may be incomplete, unstable, or under development.*
